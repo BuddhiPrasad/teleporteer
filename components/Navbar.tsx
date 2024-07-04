@@ -25,13 +25,13 @@ const Navbar = () => {
 
                     <div  className='flex items-center gap-4'>
                         <div>
-                            {/*<span className='hidden lg:block  text-white'>Open an Account</span>*/}
-                            <button className=' bg-[#00B6FF] w-1/2 py-3 px-10 text-white rounded-[100px] lg:w-fit'>Sign Up</button>
+                            <span className='hidden lg:block  text-white'>Open an Account</span>
+                            
                         </div>
                         <div className='flex items-center gap-4'>
-                            <button className=' bg-[#00B6FF] w-1/2 py-3 px-10 text-white rounded-[100px] lg:w-fit'>Sign In</button>
-                            {/*<Image src={User} alt='User' className='w-10 h-10'/> */}
-                            {/*<span className='hidden lg:block  text-white'>Sign In</span>*/}
+                            
+                            <Image src={User} alt='User' className='w-10 h-10'/> 
+                            <span className='hidden lg:block  text-white'>Sign In</span>
                             
                         </div>
 
