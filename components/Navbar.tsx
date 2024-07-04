@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
 
             <nav className='sticky z-[100] top-0 max-w-full mx-auto bg-black/75 backdrop-blur-lg transition-all'>
-                <div className='max-w-screen-xl py-4 flex  mx-auto'>
+                <div className='py-4 flex mx-auto px-[20px] lg:px-20'>
                     <div className='flex w-full items-center justify-between'>
                     <div className='flex items-center'>
                         <Image src={Logo} alt='Logo' className='w-[210px]'/>
