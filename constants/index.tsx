@@ -1,9 +1,9 @@
 export const HeaderLinks =[
-    { title: "Solution", url: "/"},
-    { title: "Socials", url: "/"},
-    { title: "Recourses", url: "/"},
-    { title: "Pricing", url: "/"},
-    { title: "Contact", url: "/"},
+    { title: "Tours", url: "/"},
+    { title: "Tour Guides", url: "/"},
+    { title: "News", url: "/"},
+    { title: "About Us", url: "/aboutus"},
+    { title: "Contacy Us", url: "/"},
 ];
 
 export const FooterLinks =[
