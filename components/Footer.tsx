@@ -13,7 +13,9 @@ import WrapperContainer from './WrapperContainer'
 const Footer = () => {
   return (
 
-        <WrapperContainer>
+
+    <div className='w-full bg-[#EBEBEB] mt-10'>
+<WrapperContainer>
         <div className='pt-[40px] pb-[40px]'>
         <div className='flex flex-col lg:flex-row'>
             <div className='lg:w-1/3 flex items-center justify-center lg:justify-start gap-x-[12px]'>
@@ -47,6 +49,8 @@ const Footer = () => {
 
         </div>
         </WrapperContainer>
+    </div>
+        
   )
 }
 

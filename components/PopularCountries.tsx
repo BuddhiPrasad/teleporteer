@@ -7,17 +7,20 @@ import Australia from '../public/assets/Australia.png'
 import France from '../public/assets/France.png'
 import UnitedKingdom from '../public/assets/United Kingdom.png'
 import SubPageHero from '@/components/SubPageHero'
+import WrapperContainer from './WrapperContainer'
 
 const PopularCountries = () => {
   return (
 <>
+<WrapperContainer>
+
 
     <div className='items-center text-center'>
         <h1 className='text-2xl lg:text-[40px] font=[#4D4D4D] pt-[30px]'>Popular Countries</h1>
         <p className='font-light lg:text-[18px] font-[#4D4D4D] pt-3'>Discover Your Favorite Place with Us</p>
     </div>
    
-    <div className='px-[20px] lg:px-20 grid lg:grid-cols-4 md:grid-cols-3 gap-3 pt-12'>
+    <div className=' grid lg:grid-cols-4 md:grid-cols-3 gap-3 pt-12'>
         {/*card 01*/}
         <div className='relative max-w-xs overflow-hidden rounded-2xl shadow-lg group'>
             <Image src={SriLanka} alt='Card1' className='transition-transform group-hover:scale-100 duration-200'/>
@@ -64,6 +67,9 @@ const PopularCountries = () => {
         </div>
 
     </div>
+
+
+    </WrapperContainer>
 </>
     
   )

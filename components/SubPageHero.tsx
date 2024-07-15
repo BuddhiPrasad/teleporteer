@@ -5,18 +5,25 @@ import WrapperContainer from '@/components/WrapperContainer';
 
 type HeaderProps = {
     bgImage?: {};
+    bgImage2?: {};
     subDestription: string;
     mainTitle: string;
     subTitle: string;
   }
 
-const SubPageHero = ({bgImage,subDestription, mainTitle, subTitle}: HeaderProps) => {
+const SubPageHero = ({bgImage,subDestription, mainTitle, subTitle,bgImage2}: HeaderProps) => {
   return (
     <>
    
 
-<div className='w-full flex items-end min-h-[320px] bg-black'>
+<div className='w-full flex items-end  bg-black'>
+<div className='w-full md:hidden'>
+      <Image src={bgImage2} alt='HeroImageMobile' className='w-full '/>
+  </div>
+  <div className='w-full hidden md:block'>
       <Image src={bgImage} alt='HeroImage' className='w-full'/>
+  </div>
+  
         
       <div className='absolute w-full'>
         <WrapperContainer>
