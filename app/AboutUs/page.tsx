@@ -1,8 +1,10 @@
 import React from 'react'
-import SubPageHero from './SubPageHero'
+import SubPageHero from '@/components/SubPageHero'
 import Image from "next/image";
 
-import HeroImage from '../public/assets/About Us Hero.png'
+import HeroImage from '@/public/assets/About Us Hero.png'
+import WrapperContainer from '@/components/WrapperContainer';
+import Navbar from '@/components/Navbar';
 
 const AboutUs = () => {
   return (
@@ -14,8 +16,9 @@ const AboutUs = () => {
       subTitle='Around the World'
     />
     
-    <div className='px-[20px] lg:px-20'>
-      <div>
+      <WrapperContainer>
+      <div className=' flex justify-between'>
+        <p className='font-light lg:text-[18px] font-[#4D4D4D] pt-3'>Home / About Us</p>
         <p className='font-light lg:text-[18px] font-[#4D4D4D] pt-3'>Home / About Us</p>
       </div>
 
@@ -23,8 +26,10 @@ const AboutUs = () => {
         <h1 className='text-2xl lg:text-[40px] font=[#4D4D4D] pt-[30px]'>About Us</h1>
         <p className='font-light lg:text-[18px] font-[#4D4D4D] pt-3'>Discover Your Favorite Place with Us</p>
       </div>
-    </div>
-    
+   
+
+      </WrapperContainer>
+
   </>
    
   )

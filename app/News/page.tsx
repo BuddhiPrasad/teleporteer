@@ -1,8 +1,8 @@
 import React from 'react'
-import SubPageHero from './SubPageHero'
+import SubPageHero from '@/components/SubPageHero'
 import Image from "next/image";
 
-import HeroImage from '../public/assets/News Hero.png'
+import HeroImage from '@/public/assets/News Hero.png'
 
 const News = () => {
   return (

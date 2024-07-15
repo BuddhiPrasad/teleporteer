@@ -1,23 +1,24 @@
 import React from 'react'
 
-import Logo from '../../public/assets/Logo.svg'
-import facebook from '../../public/assets/Facebook.svg'
-import x from '../../public/assets/X.svg'
-import Feed from '../../public/assets/Feed.svg'
+import Logo from '@/public/assets/Main Logo.svg'
+import facebook from '@/public/assets/Facebook.svg'
+import x from '@/public/assets/X.svg'
+import Feed from '@/public/assets/Feed.svg'
 import Image from 'next/image'
 
 import { FooterLinks } from "../constants";
 import Link from 'next/link';
+import WrapperContainer from './WrapperContainer'
 
 const Footer = () => {
   return (
 
+        <WrapperContainer>
         <div className='pt-[40px] pb-[40px]'>
-
         <div className='flex flex-col lg:flex-row'>
             <div className='lg:w-1/3 flex items-center justify-center lg:justify-start gap-x-[12px]'>
                 <Image src={Logo} alt='Logo'/>
-                <p className='font-bold text-[#36485C] text-[18px]'>Otrix 2024</p>
+                <p className='font-bold text-[#36485C] text-[18px]'>trippisso.io</p>
             </div>
 
             <div className='lg:w-2/3 flex flex-col items-center gap-y-[32px] pt-[56px] lg:flex-row lg:justify-end'>
@@ -45,6 +46,7 @@ const Footer = () => {
             </div>
 
         </div>
+        </WrapperContainer>
   )
 }
 

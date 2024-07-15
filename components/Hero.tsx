@@ -4,26 +4,29 @@ import Image from 'next/image';
 
 import Heroi from '../public/assets/Hero.png'
 import Button from './Button';
+import WrapperContainer from './WrapperContainer';
 
 
 const Hero = () => {
   return (
 
-    <div className='flex items-center'>
-        <Image src={Heroi} alt='Hero' className='w-full object-cover'/>
-      
-        <div className=' absolute px-[20px] lg:container lg:px-20'>
-          <p className=' text-white text-sm'>Discover Your Favorite Place with Us </p>
+<>
+
+<div className='w-full flex items-center'>
+<Image src={Heroi} alt='Hero' className='w-full object-cover'/>
+        
+      <div className='absolute w-full'>
+        <WrapperContainer>
+        <p className=' text-white text-sm'>Discover Your Favorite Place with Us </p>
           <h1 className='text-3xl  text-[#00B6FF] font-medium lg:text-6xl'>Go ahead and </h1>
           <h1 className='text-2xl  text-white font-medium lg:text-5xl'>teleport yourself </h1>
-
-          <div className='mt-2'>
-              <Button type='button' title='Discover' variant='bg-[#00B6FF] py-3 px-8 text-white'/>
-          </div>
-          
-        </div>
+          <Button type='button' title='Discover' variant='button-main'/>
+        </WrapperContainer>
+      </div>
+       
     </div>
 
+    </>
     
   )
 }

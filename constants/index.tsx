@@ -1,9 +1,9 @@
 export const HeaderLinks =[
-    { title: "Tours", url: "/"},
-    { title: "Tour Guides", url: "/"},
-    { title: "News", url: "/"},
-    { title: "About Us", url: "/aboutus"},
-    { title: "Contacy Us", url: "/"},
+    { title: "Tours", url: "Tours"},
+    { title: "Tour Guides", url: "TourGuides"},
+    { title: "News", url: "News"},
+    { title: "About Us", url: "AboutUs"},
+    { title: "Contacy Us", url: "ContactUs"},
 ];
 
 export const FooterLinks =[
