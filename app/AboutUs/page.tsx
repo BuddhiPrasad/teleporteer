@@ -67,7 +67,7 @@ const AboutUs = () => {
           <Image src={Feature02} alt='Feature01'/>
         </div>
 
-        <div className=' pt-5 lg:pt-[110px] lg:pb-[110px]'>
+        <div className=' pt-5'>
           <h1 className='text-xl font-semibold text-center'>Who are we?</h1>
           <div className='text-justify pt-4'>
             <p>It is a long established fact that a reader will be distracted by 
@@ -118,7 +118,7 @@ const AboutUs = () => {
           <Image src={Feature04} alt='Feature01'/>
         </div>
 
-        <div className=' pt-5 lg:pt-[110px] lg:pb-[110px]'>
+        <div className=' pt-5'>
           <h1 className='text-xl font-semibold text-center'>Responsible</h1>
           <div className='text-justify pt-4'>
             <p>It is a long established fact that a reader will be distracted by 

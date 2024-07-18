@@ -32,7 +32,7 @@ const Navbar = () => {
 
                         <div className='flex gap-x-3 items-center'>
                             <Image src={User} alt='User' className='w-7 h-7'/> 
-                            <Button title=' Sign in' variant='button-sub' icon='' type='submit'/>
+                            <Button title=' Sign in' variant='button-sub' icon='' type='submit' />
                             <Image src={Menu} alt='Menu' className='w-7 h-7'/>
                         </div>
                     </div>

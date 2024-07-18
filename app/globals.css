@@ -12,7 +12,7 @@
 
 /* Sub Blue Button styles */
 .button-sub{
-    @apply bg-transparent border-b border-[#00B6FF] py-2 px-5 text-[#00B6FF];
+    @apply bg-transparent border-b border-[#00B6FF] py-1 px-4 text-[#00B6FF] text-[12px];
 }
 
 
